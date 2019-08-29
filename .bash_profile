@@ -21,7 +21,7 @@ bldgrn='\e[1;32m' # Green
 txtpur='\e[0;37m' # White
 txtrst='\e[0m'    # Text Reset
 
-emojis=("🤯" "🛵" "🎲" "🏋" "🎄" "🐉" "🌵" "🍻")
+emojis=("🤯" "🛵" "✈️" "🏋" "🎄" "🐉" "🌵" "🍻")
 
 EMOJI=${emojis[$RANDOM % ${#emojis[@]} ]}
 
