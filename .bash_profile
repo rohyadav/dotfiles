@@ -1,4 +1,4 @@
-HOST_NAME=minima
+HOST_NAME=@rohit
 
 source ~/.nvm/nvm.sh
 nvm use 7
@@ -16,12 +16,12 @@ bind '"\e[B": history-search-forward'
 export CLICOLOR=1
 export LSCOLORS=GxFxCxDxBxegedabagaced
 
-txtred='\e[0;31m' # Red
+txtred='\e[0;33m' # Yellow
 bldgrn='\e[1;32m' # Green
-txtpur='\e[0;35m' # Purple
+txtpur='\e[0;37m' # White
 txtrst='\e[0m'    # Text Reset
 
-emojis=("👾" "🌐" "🎲" "🌍" "🐉" "🌵")
+emojis=("🤯" "🛵" "🎲" "🏋" "🎄" "🐉" "🌵" "🍻")
 
 EMOJI=${emojis[$RANDOM % ${#emojis[@]} ]}
 
