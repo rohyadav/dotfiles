@@ -21,7 +21,7 @@ bldgrn='\e[1;32m' # Green
 txtpur='\e[0;37m' # White
 txtrst='\e[0m'    # Text Reset
 
-emojis=("🤯" "🛵" "✈️" "🏋" "🎄" "🐉" "🌵" "🍻")
+emojis=("🧐" "🛵" "🤪" "👽" "🎄" "🐉" "🌵" "🍻")
 
 EMOJI=${emojis[$RANDOM % ${#emojis[@]} ]}
 
@@ -54,6 +54,7 @@ alias start='npm start'
 alias nr='npm run'
 alias run='npm run'
 alias nis='npm i -S'
+alias nig='npm i -g'
 alias clr="clear" # Clear your terminal screen
 alias flush="sudo discoveryutil udnsflushcaches" # Flush DNS (Yosemite)
 alias flush="killall -HUP mDNSResponder" # Flush DNS (Mavericks, Mountain Lion, Lion)
